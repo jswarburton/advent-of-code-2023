@@ -39,8 +39,8 @@ For descriptions of the puzzles see the website.
 
 ## Setting up local dev environment
 
-    conda create -n python3.9 python=3.9
-    conda activate python3.9
+    conda create -n aoc python=3.9
+    conda activate aoc
     pip install -r test-requirements.txt
 
 ## Running tests and checking formatting
