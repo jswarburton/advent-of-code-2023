@@ -2,10 +2,14 @@ from main.file_reader import read
 
 
 def solve_1(input: list) -> int:
+    for i in input:
+        pass
     return 1
 
 
 def solve_2(input: list) -> int:
+    for i in input:
+        pass
     return 2
 
 
