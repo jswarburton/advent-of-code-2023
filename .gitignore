@@ -20,3 +20,5 @@ junit.xml
 cobertura.xml
 
 .session
+
+main/resources
