@@ -21,4 +21,4 @@ cobertura.xml
 
 .session
 
-main/resources
+main/*/resources
