@@ -1,7 +1,7 @@
 from main import file_reader
-from main.year2024.day_{{PADDED_DAY}} import solve_1, solve_2
+from main.year{{YEAR}}.day_{{PADDED_DAY}} import solve_1, solve_2
 
-input = file_reader.read(file_name="day{{PADDED_DAY}}.txt", path="tests/year2024/resources")
+input = file_reader.read(file_name="day{{PADDED_DAY}}.txt", path="tests/year{{YEAR}}/resources")
 
 
 def test_solve_1():
