@@ -16,7 +16,7 @@ padded_day=$(printf "%02d" ${day})
 
 sed -e "s/{{PADDED_DAY}}/${padded_day}/g" -e "s/{{YEAR}}/${year}/g" template/main_template.txt > main/year${year}/day_"${padded_day}".py
 
-sed -e "s/{{PADDED_DAY}}/${padded_day}/g" -e "s/{{YEAR}}/${year}/g" template/test_template.txt > tests/year${year}/day_"${padded_day}"_test.py
+sed -e "s/{{PADDED_DAY}}/${padded_day}/g" -e "s/{{YEAR}}/${year}/g" template/test_template.txt > tests/year${year}/"${year}"_"${padded_day}"_test.py
 
 touch tests/year${year}/resources/day"${padded_day}".txt
 
